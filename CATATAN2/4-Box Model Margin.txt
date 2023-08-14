@@ -1,0 +1,55 @@
+# Box Model Margin
+
+margin
+    cara pakai 
+    overlapping margin
+    negatif margin
+    auto
+    shorthand
+
+Overlapping margin
+    pada margin vertikal apabila ada 2 margin yang ditentukan, misal margin bottom div pertama 150px dan pada div kedua margin top 50px, maka yang diterapkan adalah ukuran margin yang paling besar yaitu 150px (terjadi overlapping margin)
+
+    Berbeda dengan margin horizontal, margin right pada div pertama dan margin left pada div kedua ditambahkan. (tidak terjadi overlapping)
+
+Negatif margin
+    margin berkebalikan dengan nilai normal margin
+
+
+    elemen2 yang berada dibawahnya ikut dengan elemen yang di atur margin negativenya 
+
+
+margin
+    auto
+        bisa digunakan untuk menyetting margin-left dan margin-right saja, apbila right saja, elemen terletak di posisi paling kanan sebaliknya juga margin-left terletak di posisi paling kiri. Apabila margin-right dan margin-left ditentukan auto semua posisi elemen berada di tengah secara horizontal
+
+
+        bila ditentukan margin auto saja, elemen terletak di tengah secara horizontal
+
+        div {
+            margin: auto; // berarti elemen berada di tengah secara horizontal
+        }
+
+Shorthand margin
+
+    bisa 1 nilai, dua nilai, tiga nilai maupun empat nilai.
+
+    satu nilai (semua margin)
+        div {
+            margin: 50px; // berarti semua margin (left, right, bottom, top) ditentukan 50px
+        }
+
+    dua nilai (top bottom dan left right)    
+        div {
+            margin: 50px 100px; // berarti margin top dan bottom bernilai 50px, sedangkan margin left dan right bernilai 100px
+        }
+
+    tiga nilai (top, left right, dan bottom)
+        div {
+            margin: 50px 100px 30px; // berarti margin top bernilai 50px, margin left right bernilai 100px, margin bottom bernilai 30px
+        }
+
+    empat nilai (searah jaruh jam, top, right, bottom dan left)
+    div {
+        margin: 10px 20px 30px 40px; // berarti margin top 10px, margin right 20px, margin bottom 30px, dan margin left 40px
+    }

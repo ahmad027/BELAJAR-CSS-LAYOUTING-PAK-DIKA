@@ -1,0 +1,19 @@
+# CSS Dimensi dan Overflow
+
+dimensi pada CSS ada 2:
+    width -> lebar
+    height -> tinggi
+
+width   &  height
+    px
+    %
+    in, cm, mm, pt (point), pc (paica)
+
+
+CSS Overflow
+    - visible -> terlihat, default 
+    auto -> apabila content melebihi parent, ada - scrollnya, apbila tdk normal saja 
+    - hidden, content yang melebihi parent disembunyikan 
+    - scroll, memunculkan scroll, scroll tetap ada walapun konten tdk melebihi parent 
+
+
