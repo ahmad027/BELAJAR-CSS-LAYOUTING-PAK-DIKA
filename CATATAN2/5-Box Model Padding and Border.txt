@@ -1,0 +1,85 @@
+# Box Model Padding and Border
+
+Padding @
+    area transparan di dalam kotak (antara content dan border)
+
+
+Shorthand padding
+
+    bisa 1 nilai, dua nilai, tiga nilai maupun empat nilai.
+
+    satu nilai (semua padding)
+        div {
+            padding: 50px; // berarti semua padding (left, right, bottom, top) ditentukan 50px
+        }
+
+    dua nilai (top bottom dan left right)    
+        div {
+            padding: 50px 100px; // berarti padding top dan bottom bernilai 50px, sedangkan padding left dan right bernilai 100px
+        }
+
+    tiga nilai (top, left right, dan bottom)
+        div {
+            padding: 50px 100px 30px; // berarti padding top bernilai 50px, padding left right bernilai 100px, padding bottom bernilai 30px
+        }
+
+    empat nilai (searah jaruh jam, top, right, bottom dan left)
+    div {
+        padding: 10px 20px 30px 40px; // berarti padding top 10px, padding right 20px, padding bottom 30px, dan padding left 40px
+    }
+
+
+Perbedaan dengan MARGIN 
+    - Padding tidak bisa diberi nilai negatif
+    - Padding tidak memiliki nilai auto 
+    - Padding menambah ukuran box parent-nya, misal width parent 300px, dan diberi nilai padding 30px (top, right left, bottom) maka ukuran box parent akan bertmabah lebih besar dari 300px
+
+
+
+Border @
+    Batas disekeliling content dan padding
+
+
+ada 3 nilai dalam border misal
+
+    div {
+        border: 5px solid black;
+                tebal border, style border, dan warna border
+    }
+
+    border: width style color;
+
+
+ada 5 style pada border 
+    solid = utuh 
+    dotted = titik-titik
+    dashed = garis-garis 
+    double = doble 
+    none = tdk ada garis 
+
+
+Penggunaan border pada salah satu sisi, bisa menggunakan 
+    border-top
+    border-left 
+    border-right 
+    border-bottom 
+
+Border juga munambah ukuran elemen
+
+
+Pada CSS kita tdk perlu kalkulasi ulang dimensinya, karena penambahan padding, border kita bisa menngunakan properti box-sizing 
+
+    contoh
+
+    div {
+        width: 600px;
+        margin: 10px auto;
+        box-sizing: border-box;
+    }
+
+    properti box-sizing:border-box; diatas membuat kotak2 pada elemen anaknya menjadi tetap widthnya yaitu 600px (bila tdk diberi properti tsb, maka widht kotak elemen bertambah seiring nilai yang ditaetapkan pada padding dan border)
+
+
+    Pada saat kita mengatur dimensi suatu elemen, biasaanya hanya mengatur width saja, untuk height menyesuaikan dengan content (kecuali juga mau diatur juga heightnya), bila heightnya ditentukan, apbila content ukurannya melebihi dari height yang ditetapkan, maka content akan keluar dari dimensi kotaknya.
+
+

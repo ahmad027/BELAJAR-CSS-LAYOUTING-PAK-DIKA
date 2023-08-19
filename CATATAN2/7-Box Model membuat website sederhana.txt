@@ -1,0 +1,44 @@
+# 7-Box Model membuat website sederhana
+
+
+download slide:
+
+http://www.slideshare.net/sandhikagal...
+
+---
+
+download mockup / kerangka website
+
+https://www.dropbox.com/s/6zpb7nxx61x...
+
+---
+
+- Download gambar bebas pakai
+https://unsplash.com/
+
+- Nama warna CSS
+http://www.w3schools.com/colors/color...
+
+- Download pattern / pola untuk background halaman
+http://subtlepatterns.com/
+
+
+Penjelasan 
+    font: 16px/28px arial, sans-serif;
+
+    font: size line-height(jarak antara baris) font-family;
+
+
+Penjelasan
+
+    .hero {
+        height: 280px;
+        background-image: url(./img/computer1.jpg);
+        background-size: cover;
+        background-position: 0 -100px;
+        border-top: 5px solid lightskyblue;
+        border-bottom: 5px solid salmon;
+    }
+
+    background-size: cover (background yang digunakan ukurannya sesuai cover)
+    background-position(horizontal 0 vertikal -100px, keatas)
