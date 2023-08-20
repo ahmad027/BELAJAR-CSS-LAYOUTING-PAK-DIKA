@@ -1,0 +1,23 @@
+# FLOAT
+
+Float merupakan properti pada CSS untuk mengatur posisi sebuah elemen. Sebuah elemen dapat dipaksa untuk berada di sebelah kiri aatau kanan dari parent/ pembungkusnya dengan menggunakan properti ini.
+
+properti float 
+    none -> default
+    left 
+    right 
+
+Yang bisa dilakukan menggunakan properti float 
+    - text warpping 
+        membuat teks mengelilingi gambar / elemen lain 
+    
+    - image gallery 
+        membuat serangkaian gambar menjadi galeri 
+
+    - multi-column layout 
+        membuat halaman memiliki beberapa kolom
+
+    - dll
+
+
+Apabila menggunakan teknik float, width child harus sesuai jumlah dengan width parentnya. misal width parentnya 800px, maka child1, child2, child3 harus didefinisikan jumlah widthnya pas 800px, kalau beda tdk berfungsi fungsi float nya. untuk menambah padding tiap child, bisa menggunakan properti box-sizing:border-box; di tiap childnya bukan di semua elemen.

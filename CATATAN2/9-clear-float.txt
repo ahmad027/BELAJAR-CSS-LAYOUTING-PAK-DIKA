@@ -1,0 +1,35 @@
+# clear float 
+
+Cara menggunakan / membersihkan float 
+
+    - menggunakan properti overflow 
+    - menggunakan <div> kosong 
+    - menggunakan teknik micro clearfix 
+
+- menggunakan properti overflow 
+    dengan menambahkan properti 
+    overflow: auto; 
+    pada parent-nya 
+
+
+- menggunakan <div> kosong
+    CLEAR 
+
+        berfungsi menghentikan / membersihkan float 
+
+        left 
+        right 
+        both 
+
+
+    caranya menggunakan <div> kosong  
+
+    letakkan setelah elemen terakhir yang mau dihapus floatnya   
+
+
+- menggunakan teknik micro clearfix
+
+
+web referensi teknik micro clearfix
+
+https://nicolasgallagher.com/micro-clearfix-hack/
