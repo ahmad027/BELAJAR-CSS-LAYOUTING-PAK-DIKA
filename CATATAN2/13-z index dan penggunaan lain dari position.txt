@@ -1,0 +1,21 @@
+# Z index dan penggunaan lain dari position 
+
+
+z index digunakan untuk mengatur tumpukan dari elemen ketika kita kasih elemen tersebut non-static 
+
+Apabila kita ingin elemen tersebut paling atas, maka kita atur ukuran z-index paling banyak, misal 
+
+    .dua {
+        background-color: lightgreen;
+        top: 100px;
+        left: 100px;
+        z-index: 9999;
+    }
+
+Apabila kita ingin elemen tersebut dibelakang elemen lain, maka kita atur ukuran z-index dengan nilai minus(-), misal 
+    .dua {
+        background-color: lightgreen;
+        top: 100px;
+        left: 100px;
+        z-index: -2;
+    }

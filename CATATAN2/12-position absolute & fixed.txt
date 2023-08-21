@@ -1,0 +1,13 @@
+# Position absolute dan fixed
+
+absolute 
+    - Ketika kita menggerakkan elemen dengan posisi absolute (menggunakan properti top, left, bottom, right) ruang yang ditempati oleh elemen tersebut dianggap tidak ada 
+    - ketika kita menggerakkan elemen dengan posisi absolute, elemen akan bergerak relative terhadap posisi dari elemen parent-nya selama elemen parent-nya memiliki posisi yang juga non-static 
+    - jika kita memberi properti top: 0; dan left: 0; maka elemen akan berada di ujung kiri atas elemen parent-nya 
+
+
+fixed 
+    - ketika kita menggerakkan elemen dengan posisi fixed (menggunakan properti top, left, bottom, dan right), ruang yang ditempati oleh elemen tersebut dianggap tidak ada 
+    - ketika kita menggerakkan elemen dengan posisi fixed, elemen akan bergerak relatif terhadap window(browser), meskipun elemen parentnya bernilai non-static 
+    - jika kita memberi properti top: 0; dan left: 0; maka elemen akan berada di ujung kiri atas dari elemen parent-nya 
+    - elemen akan terkunci dan tidak bergerak dari posisi meskipun halaman di scroll 

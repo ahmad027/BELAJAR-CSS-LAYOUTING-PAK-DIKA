@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.satu {
+  background-color: lightgreen;
+}
+
+.dua {
+  background-color: violet;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.tiga {
+  background-color: gold;
+  margin-left: 20px;
+}
