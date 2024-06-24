@@ -3,13 +3,13 @@
 
 download slide:
 
-http://www.slideshare.net/sandhikagal...
+http://www.slideshare.net/sandhikagalih
 
 ---
 
 download mockup / kerangka website
 
-https://www.dropbox.com/s/6zpb7nxx61x...
+https://www.dropbox.com/s/6zpb7nxx61xe0te/latihan-box-model.pdf?dl=0
 
 ---
 
@@ -17,7 +17,7 @@ https://www.dropbox.com/s/6zpb7nxx61x...
 https://unsplash.com/
 
 - Nama warna CSS
-http://www.w3schools.com/colors/color...
+http://www.w3schools.com/colors/colors_names.asp
 
 - Download pattern / pola untuk background halaman
 http://subtlepatterns.com/
